@@ -1,0 +1,1178 @@
+[
+  {
+    "prefix": "Amazon",
+    "name": "EC2"
+  },
+  {
+    "prefix": "AWS",
+    "name": "App Runner"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Batch"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elastic Beanstalk"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EC2 Image Builder"
+  },
+  {
+    "prefix": "AWS",
+    "name": "End-of-Support Migration Program (EMP) for Windows Server"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Lambda"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lightsail"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Outposts"
+  },
+  {
+    "prefix": "AWS",
+    "name": "ParallelCluster"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Serverless Application Model (AWS SAM)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Serverless Application Repository"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Wavelength"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "ECR"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "ECS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EKS"
+  },
+  {
+    "prefix": "AWS",
+    "name": "App2Container"
+  },
+  {
+    "prefix": "AWS",
+    "name": "App Runner"
+  },
+  {
+    "prefix": "",
+    "name": "Red Hat OpenShift Service on AWS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "S3"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Backup"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EBS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EFS"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elastic Disaster Recovery"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "FSx"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "S3 Glacier"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Snow Family"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Storage Gateway"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Aurora"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "DocumentDB"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "DynamoDB"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "ElastiCache"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Keyspaces (for Apache Cassandra)"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "MemoryDB for Redis"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Neptune"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "QLDB"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "RDS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Redshift"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Timestream"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Identity & Access Management (IAM)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Artifact"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Audit Manager"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Cognito"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Detective"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Directory Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Firewall Manager"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Cloud Directory"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "GuardDuty"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Inspector"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Macie"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Network Firewall"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Resource Access Manager (AWS RAM)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Secrets Manager"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Security Hub"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Shield"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Single Sign-On"
+  },
+  {
+    "prefix": "AWS",
+    "name": "WAF"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cryptographic Services Overview"
+  },
+  {
+    "prefix": "AWS",
+    "name": "PKI Services Overview"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CloudHSM"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Key Management Service (AWS KMS)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Crypto Tools"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Certificate Manager"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Certificate Manager Private Certificate Authority"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Signer"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SageMaker"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Augmented AI (A2I)"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "CodeGuru"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Comprehend"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Comprehend Medical"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "DevOps Guru"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Elastic Inference"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Forecast"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Fraud Detector"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "HealthLake"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Kendra"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lex"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lookout for Equipment"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lookout for Metrics"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lookout for Vision"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Monitron"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Panorama"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Personalize"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Polly"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Rekognition"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Textract"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Translate"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Transcribe"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Deep Learning AMIs"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Deep Learning Containers"
+  },
+  {
+    "prefix": "AWS",
+    "name": "DeepComposer"
+  },
+  {
+    "prefix": "AWS",
+    "name": "DeepLens"
+  },
+  {
+    "prefix": "AWS",
+    "name": "DeepRacer"
+  },
+  {
+    "prefix": "",
+    "name": "Apache MXNet on AWS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Machine Learning"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Account Management"
+  },
+  {
+    "prefix": "AWS",
+    "name": "AppConfig"
+  },
+  {
+    "prefix": "",
+    "name": "Auto Scaling"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Backint Agent for SAP HANA"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Chatbot"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CloudFormation"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CloudTrail"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "CloudWatch"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Command Line Interface (AWS CLI)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Compute Optimizer"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Config"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Console Mobile Application"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Control Tower"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Data Lifecycle Manager"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Health"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Launch Wizard"
+  },
+  {
+    "prefix": "AWS",
+    "name": "License Manager"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Managed Grafana"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Managed Service for Prometheus"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Management Console"
+  },
+  {
+    "prefix": "AWS",
+    "name": "OpsWorks"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Organizations"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Proton"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Resilience Hub"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Resource Groups"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Service Catalog"
+  },
+  {
+    "prefix": "",
+    "name": "Service Quotas"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Systems Manager"
+  },
+  {
+    "prefix": "",
+    "name": "Tag Editor"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Tools for PowerShell"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Trusted Advisor"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Well-Architected Tool"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cloud9"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cloud Control API"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CloudShell"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodeArtifact"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodeBuild"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodeCommit"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodeDeploy"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodePipeline"
+  },
+  {
+    "prefix": "AWS",
+    "name": "CodeStar"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Fault Injection Simulator"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Microservice Extractor for .NET"
+  },
+  {
+    "prefix": "",
+    "name": "Porting Assistant for .NET"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Tools & SDKs"
+  },
+  {
+    "prefix": "AWS",
+    "name": "X-Ray"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Application Discovery Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Application Migration Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Database Migration Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "DataSync"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Mainframe Modernization"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Migration Hub"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Schema Conversion Tool"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Server Migration Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Snow Family"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Transfer Family"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "API Gateway"
+  },
+  {
+    "prefix": "AWS",
+    "name": "App Mesh"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cloud Map"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "CloudFront"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Direct Connect"
+  },
+  {
+    "prefix": "",
+    "name": "Elastic Load Balancing"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Global Accelerator"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Route 53"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "VPC"
+  },
+  {
+    "prefix": "AWS",
+    "name": "VPN"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cloud Digital Interface SDK"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Elastic Transcoder"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaConnect"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaConvert"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaLive"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaPackage"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaStore"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental MediaTailor"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Elemental On-Premises"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Interactive Video Service"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Nimble Studio"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Core"
+  },
+  {
+    "prefix": "",
+    "name": "FreeRTOS"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Analytics"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Device Defender"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Device Management"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Events"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT ExpressLink (Preview)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT FleetWise (Preview)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Greengrass"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT RoboRunner (Preview)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT SiteWise"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT Things Graph"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT TwinMaker"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IoT 1-Click"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Amplify"
+  },
+  {
+    "prefix": "",
+    "name": "Amplify Android (AWS Mobile SDK for Android)"
+  },
+  {
+    "prefix": "",
+    "name": "Amplify iOS (AWS Mobile SDK for iOS)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "AppSync"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Device Farm"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Location Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Mobile SDK for Unity"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Mobile SDK for Xamarin"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Pinpoint"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SNS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "WorkSpaces"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "WorkSpaces Web"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "AppStream 2.0"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "WAM"
+  },
+  {
+    "prefix": "",
+    "name": "NICE DCV"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "AppFlow"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Athena"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "CloudSearch"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Data Exchange"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Data Pipeline"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "OpenSearch Service"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EMR"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "FinSpace"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Glue"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Kinesis"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Lake Formation"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "MSK"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "QuickSight"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Redshift"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "AppFlow"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EventBridge"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Managed Workflows for Apache Airflow"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "MQ"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SNS"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SQS"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Step Functions"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SWF"
+  },
+  {
+    "prefix": "",
+    "name": "Alexa for Business"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Chime"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Chime SDK"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Connect"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Honeycode"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Pinpoint"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Simple Email Service (Amazon SES)"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "WorkDocs"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "WorkMail"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Managed Services"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Professional Services"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Support"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Training and Certification"
+  },
+  {
+    "prefix": "AWS",
+    "name": "IQ"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Ground Station"
+  },
+  {
+    "prefix": "AWS",
+    "name": "RoboMaker"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Braket"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Managed Blockchain"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Sumerian"
+  },
+  {
+    "prefix": "AWS",
+    "name": "GameKit"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "GameLift"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "GameSparks (Preview)"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lumberyard"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Service Endpoints"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Security Credentials"
+  },
+  {
+    "prefix": "",
+    "name": "Service Quotas"
+  },
+  {
+    "prefix": "",
+    "name": "Tagging AWS Resources"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Glossary"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Application Cost Profiler"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Billing & Cost Management"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Pricing Calculator"
+  },
+  {
+    "prefix": "",
+    "name": "Savings Plans"
+  },
+  {
+    "prefix": "",
+    "name": "Getting Started with the Console"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Console Mobile Application"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Cloud Development Kit (AWS CDK)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Code Examples Repository"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Command Line Interface (AWS CLI)"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Corretto"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Crypto Tools"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Serverless Application Model (AWS SAM)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for C++"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Go"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Java"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for JavaScript"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Kotlin"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for .NET"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for PHP"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Python (Boto3)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Ruby"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Rust"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDK for Swift"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Toolkit for Eclipse"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Toolkit for JetBrains"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Toolkit for Visual Studio"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Toolkit for Visual Studio Code"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Tools for PowerShell"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Toolkit for Azure DevOps"
+  },
+  {
+    "prefix": "AWS",
+    "name": "SDKs and Tools Reference Guide"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Security Documentation"
+  },
+  {
+    "prefix": "",
+    "name": "Alexa Top Sites"
+  },
+  {
+    "prefix": "",
+    "name": "Alexa Web Information Service"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Support"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Blockchain Templates"
+  },
+  {
+    "prefix": "AWS",
+    "name": "General Reference"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Code Examples Repository"
+  },
+  {
+    "prefix": "AWS",
+    "name": "GovCloud (US)"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Marketplace"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Prescriptive Guidance"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Quick Starts"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Solutions"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Silk"
+  }
+]
