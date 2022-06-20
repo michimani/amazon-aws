@@ -14,6 +14,17 @@ function App() {
           <br />
           200 を超えるサービス・ツールの中からランダムで 10 問出題されます。
         </p>
+        <p className="description">
+          改善要望や不具合報告は下記へお願い致します。
+          <br />
+          <a
+            href="https://github.com/michimani/amazon-aws"
+            rel="noreferrer"
+            target="_blank"
+          >
+            github.com/michimani/amazon-aws
+          </a>
+        </p>
       </header>
       <hr />
 
