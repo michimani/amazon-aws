@@ -1,6 +1,6 @@
+import QuestionList from "./QuestionList";
 import logo from "./logo.png";
 import "./App.css";
-import QuestionList from "./Questions";
 
 function App() {
   return (
