@@ -111,7 +111,13 @@ class QuestionItem extends React.Component {
         </div>
         {this.state.answered && this.collect && (
           <div>
-            <p className="ans ok">⭕ 正解</p>
+            <p className="ans ok">
+              ⭕ 正解
+              <br />
+              <b>
+                「{this.answer} {this.question}」
+              </b>
+            </p>
           </div>
         )}
         {this.state.answered && !this.collect && (
