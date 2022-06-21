@@ -74,11 +74,15 @@ class QuestionItem extends React.Component {
     }
   }
 
+  hideHintText(question) {
+    return question.replace(/\((AWS|Amazon) /g, "(");
+  }
+
   render() {
     return (
       <div className="question-item">
         <span className="question-num">第{this.qnum}問</span>
-        <p className="question">{this.question}</p>
+        <p className="question">{this.hideHintText(this.question)}</p>
         <div>
           <button
             className="ans-button"
@@ -107,7 +111,13 @@ class QuestionItem extends React.Component {
         </div>
         {this.state.answered && this.collect && (
           <div>
-            <p className="ans ok">⭕ 正解</p>
+            <p className="ans ok">
+              ⭕ 正解
+              <br />
+              <b>
+                「{this.answer} {this.question}」
+              </b>
+            </p>
           </div>
         )}
         {this.state.answered && !this.collect && (
