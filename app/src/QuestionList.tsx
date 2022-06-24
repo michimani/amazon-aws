@@ -1,37 +1,50 @@
+import React from "react";
 import QuestionData from "./data/amazon-aws.json";
 import QuestionItem from "./QuestionItem";
 import "./Questions.css";
 
-const React = require("react");
-
 const questionNumber = 10;
 
-class QuestionList extends React.Component {
-  constructor(props) {
+type QuestionListState = {
+  answered: number;
+  collect: number;
+  data: {
+    prefix: string;
+    name: string;
+    url: string;
+  }[];
+};
+
+type QuestionListProps = {};
+
+class QuestionList extends React.Component<
+  QuestionListProps,
+  QuestionListState
+> {
+  state: QuestionListState = { answered: 0, collect: 0, data: [] };
+
+  constructor(props: QuestionListProps) {
     super(props);
 
-    // ランダムで 10 問
     const total = QuestionData.length;
     const questionList = [];
-    let selected = {};
+    let selected = new Map<number, Boolean>();
     while (questionList.length < questionNumber) {
       const idx = Math.floor(Math.random() * total) + 1;
-      if (selected[idx]) {
+      if (selected.get(idx) !== undefined) {
         continue;
       }
 
       questionList.push(QuestionData[idx]);
-      selected[idx] = true;
+      selected.set(idx, true);
     }
-    this.data = questionList;
-
-    this.state = { answered: 0, collect: 0 };
+    this.state = { answered: 0, collect: 0, data: questionList };
 
     this.onAnswer = this.onAnswer.bind(this);
     this.tweet = this.tweet.bind(this);
   }
 
-  onAnswer(isCollect) {
+  onAnswer(isCollect: boolean) {
     const currentAnswered = this.state.answered;
     this.setState({ answered: currentAnswered + 1 });
 
@@ -44,20 +57,20 @@ class QuestionList extends React.Component {
   tweet() {
     const messageTmp = `Amazon or AWS クイズ\n${questionNumber}問中 ${this.state.collect} 問正解でした。\n#quiz_amazon_aws`;
     const message = encodeURIComponent(messageTmp);
-    const tweetURL = `http://twitter.com/intent/tweet?url=https%3a%2f%2fmichimani%2enet%2fapp%2famazon-aws%2f&text=${message}`;
+    const tweetURL = `https://twitter.com/intent/tweet?url=https%3a%2f%2fmichimani%2enet%2fapp%2famazon-aws%2f&text=${message}`;
     window.open(tweetURL, "");
   }
 
   render() {
     return (
       <div>
-        {this.data.map((d, idx) => (
+        {this.state.data.map((d: any, idx: number) => (
           <QuestionItem
             prefix={d.prefix}
             name={d.name}
             url={d.url}
             key={idx}
-            qnum={idx + 1}
+            questionNumber={idx + 1}
             onAnswer={this.onAnswer}
           />
         ))}

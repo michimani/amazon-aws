@@ -1,25 +1,40 @@
+import React from "react";
 import "./Questions.css";
 
-const React = require("react");
+type QuestionItemProps = {
+  name: string;
+  prefix: string;
+  url: string;
+  questionNumber: number;
+  onAnswer: (b: boolean) => void;
+};
 
 const defaultButton = "#dddddd";
 const collectButton = "#67f56e";
 const wrongButton = "#f56767";
 
-class QuestionItem extends React.Component {
-  constructor(props) {
-    super(props);
+type QuestionItemState = {
+  answered: boolean;
+  amazon: string;
+  aws: string;
+  neither: string;
+  collect: boolean;
+};
 
-    this.question = props.name;
-    this.answer = props.prefix;
-    this.url = props.url;
-    this.qnum = props.qnum;
-    this.state = {
-      answered: false,
-      amazon: defaultButton,
-      aws: defaultButton,
-      neither: defaultButton,
-    };
+class QuestionItem extends React.Component<
+  QuestionItemProps,
+  QuestionItemState
+> {
+  state: QuestionItemState = {
+    answered: false,
+    amazon: defaultButton,
+    aws: defaultButton,
+    neither: defaultButton,
+    collect: false,
+  };
+
+  constructor(props: QuestionItemProps) {
+    super(props);
 
     this.selectAmazon = this.selectAmazon.bind(this);
     this.selectAWS = this.selectAWS.bind(this);
@@ -40,22 +55,22 @@ class QuestionItem extends React.Component {
     this.selectAnswer("");
   }
 
-  selectAnswer(answer) {
+  selectAnswer(answer: string) {
     this.setState({ answered: true });
-    const isCollect = this.answer === answer;
+    const isCollect = this.props.prefix === answer;
     this.props.onAnswer(isCollect);
 
     if (isCollect) {
-      this.collect = true;
+      this.setState({ collect: true });
       this.setColor(answer, collectButton);
       return;
     }
 
-    this.setColor(this.answer, collectButton);
+    this.setColor(this.props.prefix, collectButton);
     this.setColor(answer, wrongButton);
   }
 
-  setColor(target, color) {
+  setColor(target: string, color: string) {
     switch (target) {
       case "Amazon":
         this.setState({ amazon: color });
@@ -74,15 +89,15 @@ class QuestionItem extends React.Component {
     }
   }
 
-  hideHintText(question) {
+  hideHintText(question: string): string {
     return question.replace(/\((AWS|Amazon) /g, "(");
   }
 
-  render() {
+  render(): JSX.Element {
     return (
       <div className="question-item">
-        <span className="question-num">第{this.qnum}問</span>
-        <p className="question">{this.hideHintText(this.question)}</p>
+        <span className="question-num">第{this.props.questionNumber}問</span>
+        <p className="question">{this.hideHintText(this.props.name)}</p>
         <div>
           <button
             className="ans-button"
@@ -109,31 +124,31 @@ class QuestionItem extends React.Component {
             AWS
           </button>
         </div>
-        {this.state.answered && this.collect && (
+        {this.state.answered && this.state.collect && (
           <div>
             <p className="ans ok">
               ⭕ 正解
               <br />
               <b>
-                「{this.answer} {this.question}」
+                「{this.props.prefix} {this.props.name}」
               </b>
             </p>
           </div>
         )}
-        {this.state.answered && !this.collect && (
+        {this.state.answered && !this.state.collect && (
           <div>
             <p className="ans ng">❌ 不正解</p>
             <p>
               正解は{" "}
               <b>
-                「{this.answer} {this.question}」
+                「{this.props.prefix} {this.props.name}」
               </b>
             </p>
           </div>
         )}
         {this.state.answered && (
           <p className="official-reference">
-            公式ドキュメント: <a href={this.url}>{this.url}</a>
+            公式ドキュメント: <a href={this.props.url}>{this.props.url}</a>
           </p>
         )}
         <hr />
