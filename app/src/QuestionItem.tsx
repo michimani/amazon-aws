@@ -90,7 +90,11 @@ class QuestionItem extends React.Component<
   }
 
   hideHintText(question: string): string {
-    return question.replace(/\((AWS|Amazon) /g, "(");
+    if (question.indexOf("(") < 0 && question.indexOf(")") < 0) {
+      return question;
+    }
+    const re = /((AWS|Amazon) )/g;
+    return question.replace(re, "");
   }
 
   render(): JSX.Element {

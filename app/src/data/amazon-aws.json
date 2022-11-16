@@ -5,6 +5,46 @@
     "url": "https://docs.aws.amazon.com/ec2/"
   },
   {
+    "prefix": "Amazon",
+    "name": "S3",
+    "url": "https://docs.aws.amazon.com/s3/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Aurora",
+    "url": "https://docs.aws.amazon.com/rds/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "RDS",
+    "url": "https://docs.aws.amazon.com/rds/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "DynamoDB",
+    "url": "https://docs.aws.amazon.com/dynamodb/"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Lambda",
+    "url": "https://docs.aws.amazon.com/lambda/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "VPC",
+    "url": "https://docs.aws.amazon.com/vpc/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "Lightsail",
+    "url": "https://docs.aws.amazon.com/lightsail/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SageMaker",
+    "url": "https://docs.aws.amazon.com/sagemaker/"
+  },
+  {
     "prefix": "AWS",
     "name": "App Runner",
     "url": "https://docs.aws.amazon.com/apprunner/"
@@ -28,16 +68,6 @@
     "prefix": "AWS",
     "name": "End-of-Support Migration Program (EMP) for Windows Server",
     "url": "https://docs.aws.amazon.com/emp/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Lambda",
-    "url": "https://docs.aws.amazon.com/lambda/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "Lightsail",
-    "url": "https://docs.aws.amazon.com/lightsail/"
   },
   {
     "prefix": "AWS",
@@ -85,19 +115,9 @@
     "url": "https://docs.aws.amazon.com/app2container/"
   },
   {
-    "prefix": "AWS",
-    "name": "App Runner",
-    "url": "https://docs.aws.amazon.com/apprunner/"
-  },
-  {
     "prefix": "",
     "name": "Red Hat OpenShift Service on AWS",
     "url": "https://docs.aws.amazon.com/ROSA/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "S3",
-    "url": "https://docs.aws.amazon.com/s3/"
   },
   {
     "prefix": "AWS",
@@ -141,18 +161,8 @@
   },
   {
     "prefix": "Amazon",
-    "name": "Aurora",
-    "url": "https://docs.aws.amazon.com/rds/"
-  },
-  {
-    "prefix": "Amazon",
     "name": "DocumentDB",
     "url": "https://docs.aws.amazon.com/documentdb/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "DynamoDB",
-    "url": "https://docs.aws.amazon.com/dynamodb/"
   },
   {
     "prefix": "Amazon",
@@ -181,11 +191,6 @@
   },
   {
     "prefix": "Amazon",
-    "name": "RDS",
-    "url": "https://docs.aws.amazon.com/rds/"
-  },
-  {
-    "prefix": "Amazon",
     "name": "Redshift",
     "url": "https://docs.aws.amazon.com/redshift/"
   },
@@ -196,7 +201,7 @@
   },
   {
     "prefix": "AWS",
-    "name": "Identity & Access Management (IAM)",
+    "name": "Identity and Access Management (IAM)",
     "url": "https://docs.aws.amazon.com/iam/"
   },
   {
@@ -240,6 +245,11 @@
     "url": "https://docs.aws.amazon.com/guardduty/"
   },
   {
+    "prefix": "AWS",
+    "name": "IAM Identity Center (successor to AWS Single Sign-On)",
+    "url": "https://docs.aws.amazon.com/singlesignon/"
+  },
+  {
     "prefix": "Amazon",
     "name": "Inspector",
     "url": "https://docs.aws.amazon.com/inspector/"
@@ -273,11 +283,6 @@
     "prefix": "AWS",
     "name": "Shield",
     "url": "https://docs.aws.amazon.com/shield/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Single Sign-On",
-    "url": "https://docs.aws.amazon.com/singlesignon/"
   },
   {
     "prefix": "AWS",
@@ -316,18 +321,13 @@
   },
   {
     "prefix": "AWS",
-    "name": "Certificate Manager Private Certificate Authority",
-    "url": "https://docs.aws.amazon.com/acm/"
+    "name": "Private Certificate Authority",
+    "url": "https://docs.aws.amazon.com/privateca/"
   },
   {
     "prefix": "AWS",
     "name": "Signer",
     "url": "https://docs.aws.amazon.com/signer/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "SageMaker",
-    "url": "https://docs.aws.amazon.com/sagemaker/"
   },
   {
     "prefix": "Amazon",
@@ -491,11 +491,6 @@
   },
   {
     "prefix": "AWS",
-    "name": "Backint Agent for SAP HANA",
-    "url": "https://docs.aws.amazon.com/backint/"
-  },
-  {
-    "prefix": "AWS",
     "name": "Chatbot",
     "url": "https://docs.aws.amazon.com/chatbot/"
   },
@@ -596,6 +591,11 @@
   },
   {
     "prefix": "AWS",
+    "name": "Resource Explorer",
+    "url": "https://docs.aws.amazon.com/ARG/"
+  },
+  {
+    "prefix": "AWS",
     "name": "Resource Groups",
     "url": "https://docs.aws.amazon.com/ARG/"
   },
@@ -603,6 +603,11 @@
     "prefix": "AWS",
     "name": "Service Catalog",
     "url": "https://docs.aws.amazon.com/servicecatalog/"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Service Management Connector",
+    "url": "https://docs.aws.amazon.com/smc/"
   },
   {
     "prefix": "",
@@ -633,6 +638,41 @@
     "prefix": "AWS",
     "name": "Well-Architected Tool",
     "url": "https://docs.aws.amazon.com/wellarchitected/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "API Gateway",
+    "url": "https://docs.aws.amazon.com/apigateway/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "EventBridge",
+    "url": "https://docs.aws.amazon.com/eventbridge/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SNS",
+    "url": "https://docs.aws.amazon.com/sns/"
+  },
+  {
+    "prefix": "Amazon",
+    "name": "SQS",
+    "url": "https://docs.aws.amazon.com/sqs/"
+  },
+  {
+    "prefix": "AWS",
+    "name": "AppSync",
+    "url": "https://docs.aws.amazon.com/appsync/"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Fargate",
+    "url": "https://docs.aws.amazon.com/ecs/"
+  },
+  {
+    "prefix": "AWS",
+    "name": "Step Functions",
+    "url": "https://docs.aws.amazon.com/step-functions/"
   },
   {
     "prefix": "AWS",
@@ -695,8 +735,13 @@
     "url": "https://docs.aws.amazon.com/portingassistant/"
   },
   {
+    "prefix": "",
+    "name": "Toolkit for .NET Refactoring",
+    "url": "https://docs.aws.amazon.com/tk-dotnet-refactoring/"
+  },
+  {
     "prefix": "AWS",
-    "name": "Tools & SDKs ",
+    "name": "Tools & SDKs",
     "url": "https://aws.amazon.com/tools/"
   },
   {
@@ -746,18 +791,8 @@
   },
   {
     "prefix": "AWS",
-    "name": "Snow Family",
-    "url": "https://docs.aws.amazon.com/snowball/"
-  },
-  {
-    "prefix": "AWS",
     "name": "Transfer Family",
     "url": "https://docs.aws.amazon.com/transfer/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "API Gateway",
-    "url": "https://docs.aws.amazon.com/apigateway/"
   },
   {
     "prefix": "AWS",
@@ -790,14 +825,19 @@
     "url": "https://docs.aws.amazon.com/global-accelerator/"
   },
   {
+    "prefix": "AWS",
+    "name": "Private 5G",
+    "url": "https://docs.aws.amazon.com/private-networks/"
+  },
+  {
     "prefix": "Amazon",
     "name": "Route 53",
     "url": "https://docs.aws.amazon.com/route53/"
   },
   {
     "prefix": "Amazon",
-    "name": "VPC",
-    "url": "https://docs.aws.amazon.com/vpc/"
+    "name": "Route 53 Application Recovery Controller",
+    "url": "https://docs.aws.amazon.com/amazonarc/"
   },
   {
     "prefix": "AWS",
@@ -891,12 +931,12 @@
   },
   {
     "prefix": "AWS",
-    "name": "IoT ExpressLink (Preview)",
+    "name": "IoT ExpressLink",
     "url": "https://docs.aws.amazon.com/iot-expresslink/"
   },
   {
     "prefix": "AWS",
-    "name": "IoT FleetWise (Preview)",
+    "name": "IoT FleetWise",
     "url": "https://docs.aws.amazon.com/iot-fleetwise/"
   },
   {
@@ -913,11 +953,6 @@
     "prefix": "AWS",
     "name": "IoT SiteWise",
     "url": "https://docs.aws.amazon.com/iot-sitewise/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "IoT Things Graph",
-    "url": "https://docs.aws.amazon.com/thingsgraph/"
   },
   {
     "prefix": "AWS",
@@ -946,11 +981,6 @@
   },
   {
     "prefix": "AWS",
-    "name": "AppSync",
-    "url": "https://docs.aws.amazon.com/appsync/"
-  },
-  {
-    "prefix": "AWS",
     "name": "Device Farm",
     "url": "https://docs.aws.amazon.com/devicefarm/"
   },
@@ -967,17 +997,12 @@
   {
     "prefix": "AWS",
     "name": "Mobile SDK for Xamarin",
-    "url": "https://docs.aws.amazon.com/mobile/sdkforxamarin/developerguide/index.html"
+    "url": "https://docs.aws.amazon.com/mobile/sdkforxamarin/developerguide/Welcome.html"
   },
   {
     "prefix": "Amazon",
     "name": "Pinpoint",
     "url": "https://docs.aws.amazon.com/pinpoint/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "SNS",
-    "url": "https://docs.aws.amazon.com/sns/"
   },
   {
     "prefix": "Amazon",
@@ -1071,21 +1096,6 @@
   },
   {
     "prefix": "Amazon",
-    "name": "Redshift",
-    "url": "https://docs.aws.amazon.com/redshift/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "AppFlow",
-    "url": "https://docs.aws.amazon.com/appflow/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "EventBridge",
-    "url": "https://docs.aws.amazon.com/eventbridge/"
-  },
-  {
-    "prefix": "Amazon",
     "name": "Managed Workflows for Apache Airflow",
     "url": "https://docs.aws.amazon.com/mwaa/"
   },
@@ -1093,21 +1103,6 @@
     "prefix": "Amazon",
     "name": "MQ",
     "url": "https://docs.aws.amazon.com/amazon-mq/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "SNS",
-    "url": "https://docs.aws.amazon.com/sns/"
-  },
-  {
-    "prefix": "Amazon",
-    "name": "SQS",
-    "url": "https://docs.aws.amazon.com/sqs/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Step Functions",
-    "url": "https://docs.aws.amazon.com/step-functions/"
   },
   {
     "prefix": "Amazon",
@@ -1141,11 +1136,6 @@
   },
   {
     "prefix": "Amazon",
-    "name": "Pinpoint",
-    "url": "https://docs.aws.amazon.com/pinpoint/"
-  },
-  {
-    "prefix": "Amazon",
     "name": "Simple Email Service (Amazon SES)",
     "url": "https://docs.aws.amazon.com/ses/"
   },
@@ -1166,17 +1156,17 @@
   },
   {
     "prefix": "AWS",
-    "name": "Professional Services ",
+    "name": "Professional Services",
     "url": "https://aws.amazon.com/professional-services/"
   },
   {
     "prefix": "AWS",
-    "name": "Support ",
+    "name": "Support",
     "url": "https://aws.amazon.com/premiumsupport/"
   },
   {
     "prefix": "AWS",
-    "name": "Training and Certification ",
+    "name": "Training and Certification",
     "url": "https://aws.amazon.com/training/"
   },
   {
@@ -1241,11 +1231,6 @@
   },
   {
     "prefix": "",
-    "name": "Service Quotas",
-    "url": "https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html"
-  },
-  {
-    "prefix": "",
     "name": "Tagging AWS Resources",
     "url": "https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html"
   },
@@ -1275,14 +1260,14 @@
     "url": "https://docs.aws.amazon.com/savingsplans/"
   },
   {
+    "prefix": "AWS",
+    "name": "Sign-In",
+    "url": "https://docs.aws.amazon.com/signin/latest/userguide/what-is-sign-in.html"
+  },
+  {
     "prefix": "",
     "name": "Getting Started with the Console",
     "url": "https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Console Mobile Application",
-    "url": "https://docs.aws.amazon.com/consolemobileapp/"
   },
   {
     "prefix": "AWS",
@@ -1291,28 +1276,13 @@
   },
   {
     "prefix": "AWS",
-    "name": "Code Examples Repository ",
-    "url": "https://github.com/awsdocs/aws-doc-sdk-examples"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Command Line Interface (AWS CLI)",
-    "url": "https://docs.aws.amazon.com/cli/"
+    "name": "SDK Code Examples",
+    "url": "https://docs.aws.amazon.com/code-library/"
   },
   {
     "prefix": "Amazon",
     "name": "Corretto",
     "url": "https://docs.aws.amazon.com/corretto/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Crypto Tools",
-    "url": "https://docs.aws.amazon.com/aws-crypto-tools/"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Serverless Application Model (AWS SAM)",
-    "url": "https://docs.aws.amazon.com/serverless-application-model/"
   },
   {
     "prefix": "AWS",
@@ -1391,11 +1361,6 @@
   },
   {
     "prefix": "AWS",
-    "name": "Tools for PowerShell",
-    "url": "https://docs.aws.amazon.com/powershell/"
-  },
-  {
-    "prefix": "AWS",
     "name": "Toolkit for Azure DevOps",
     "url": "https://docs.aws.amazon.com/vsts/"
   },
@@ -1421,11 +1386,6 @@
   },
   {
     "prefix": "AWS",
-    "name": "Support",
-    "url": "https://docs.aws.amazon.com/aws-support/"
-  },
-  {
-    "prefix": "AWS",
     "name": "Blockchain Templates",
     "url": "https://docs.aws.amazon.com/blockchain-templates/"
   },
@@ -1433,11 +1393,6 @@
     "prefix": "AWS",
     "name": "General Reference",
     "url": "https://docs.aws.amazon.com/general/latest/gr/Welcome.html"
-  },
-  {
-    "prefix": "AWS",
-    "name": "Code Examples Repository ",
-    "url": "https://github.com/awsdocs/aws-doc-sdk-examples"
   },
   {
     "prefix": "AWS",
@@ -1451,17 +1406,17 @@
   },
   {
     "prefix": "AWS",
-    "name": "Prescriptive Guidance ",
+    "name": "Prescriptive Guidance",
     "url": "https://aws.amazon.com/prescriptive-guidance/"
   },
   {
     "prefix": "AWS",
-    "name": "Quick Starts ",
+    "name": "Quick Starts",
     "url": "https://aws.amazon.com/quickstart/"
   },
   {
     "prefix": "AWS",
-    "name": "Solutions ",
+    "name": "Solutions",
     "url": "https://aws.amazon.com/solutions/"
   },
   {
