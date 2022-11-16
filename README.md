@@ -13,10 +13,38 @@ Generate `amazon-aws.json` data.
 
 ```js
 res = [];
+checked = [];
 document.querySelectorAll('section[aria-labelledby=user_guides] li').forEach((e) => {
-    const prefix = e.querySelector('span').innerText;
-    const name = e.querySelector('a').innerText;
-    const url = e.querySelector('a').href.replace('?id=docs_gateway', '');
+    const fullName = e.querySelector('span').innerText;
+    if (checked.includes(fullName) == true) {
+        return;
+    }
+    checked.push(fullName);
+    let prefix = '';
+    let name = '';
+    let prefixIdx = fullName.indexOf('AWS ');
+    if (prefixIdx == 0) {
+        prefix = 'AWS'
+        name = fullName.replace('AWS ', '');
+    } else if (prefixIdx < 0) {
+        prefixIdx = fullName.indexOf('Amazon ');
+        if (prefixIdx == 0) {
+            prefix = 'Amazon'
+            name = fullName.replace('Amazon ', '');
+        }
+    }
+
+    if (name == '') {
+        name = fullName;
+    }
+    const fullURL = e.querySelector('a').href;
+    const queryIdx = fullURL.indexOf('?');
+    let url = '';
+    if (queryIdx < 0) {
+        url = fullURL;
+    } else {
+        url = fullURL.substring(0, queryIdx);
+    }
     res.push({prefix: prefix, name: name, url: url});
 })
 console.log(JSON.stringify(res));
