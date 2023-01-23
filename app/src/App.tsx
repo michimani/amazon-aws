@@ -1,4 +1,4 @@
-import QuestionList from "./QuestionList";
+import QuestionList from "./components/QuestionList";
 import logo from "./logo.png";
 import "./App.css";
 

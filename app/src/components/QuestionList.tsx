@@ -1,5 +1,5 @@
 import React from "react";
-import QuestionData from "./data/amazon-aws.json";
+import QuestionData from "../data/amazon-aws.json";
 import QuestionItem from "./QuestionItem";
 import "./Questions.css";
 
