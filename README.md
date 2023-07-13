@@ -9,7 +9,7 @@ It can be played here. [Quiz Amazon or AWS](https://michimani.net/app/amazon-aws
 
 [AWS Documentation](https://docs.aws.amazon.com/)
 
-Generate `amazon-aws.json` data.
+(Not working) Generate `amazon-aws.json` data. 
 
 ```js
 res = [];
